@@ -1,0 +1,1253 @@
+@font-face {
+	font-family: 'Phosphate.ttc';
+	src:url(../FONT/Phosphate-Inline.eot);
+	src:url(../FONT/Phosphate-Inline.eot) format('embedded-opentype'),
+		url(../FONT/Phosphate-Inline.woff2) format('woff2'),
+		url(../FONT/Phosphate-Inline.woff) format('woff'),
+		url(../FONT/Phosphate-Inline.ttf) format('truetype'),
+		url(../FONT/Phosphate-Inline.svg) format('svg');
+}
+
+body { 
+	overflow-x: hidden;
+}
+
+.navbar-default {
+	background-color: #CD2028;
+	background-image: none;
+	color: white;
+	border-radius: 0;
+}
+
+.brand {
+	display: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #CD2028;
+}
+
+.navbar-toggle.open
+{
+  margin-top:5px;
+}
+
+.navbar-toggle span {
+-webkit-transition: all 0.5s linear;
+    transition: all 0.3s linear;
+}
+
+.navbar-toggle.open span:nth-child(1), 
+.navbar-toggle.open span:nth-child(3) {
+    width: 25px;
+}
+
+.navbar-toggle.open span:nth-child(1), .menu-toggle-btn.open span:nth-child(3) {
+    transform: translate(0px, 13px) rotate(-45deg);
+    margin: 0;
+}
+
+.navbar-toggle.open span:nth-child(2) {
+    height: 0;
+    margin: 0;
+}
+
+.navbar-toggle.open span:nth-child(3) {
+    transform: translate(0px, 11px) rotate(45deg);
+	margin-top:0;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+	font-weight: 400;
+	font-size: 100%;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: black;
+	text-decoration: none;
+}
+
+.navbar-brand, .navbar-nav>li>a {
+    text-shadow: none;
+}
+
+.navbar-brand {
+	background-image:url(../IMG/LogoText.jpg);
+	background-size: 100% auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	right: -20px;
+	width: 130px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    border: none;
+	padding: 0;
+	position: relative;
+	z-index: 999;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: none;
+	border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.navbar-nav li:nth-child(3) {
+	display: none;
+	}
+
+.flickity-page-dots { 
+	bottom: 25px; 
+}
+
+.gallery {
+	height: 550px;
+	background-color: black;
+	padding: 0;
+	margin: 0;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.main-carousel {
+	
+}
+
+.flickity-prev-next-button {
+	display: none;
+    background: transparent;
+}
+
+.carousel-cell {
+	width: 100%;
+	height: 550px;
+}
+
+.flickity-page-dots .dot {
+	border: 1px solid black;
+	width: 8px;
+  	height: 8px;
+	background: transparent;
+}
+
+.flickity-page-dots .dot.is-selected {
+  background: black;
+}
+
+.intro {
+	height: 550px;
+	background-image: url(../IMG/intro-bg.jpg);
+	background-size: cover;
+}
+
+.intro2 {
+	height: 550px;
+	background-image: url(../IMG/breaking-bad-finished-cupcake.jpg);
+	background-size: cover;
+	background-position: 0% 100%;
+	background-repeat: no-repeat;
+}
+
+.intro3 {
+	height: 550px;
+	background: #E5D68C;
+}
+
+.heading {
+	background-image: url(../IMG/intro-text.png);
+	height: 180px;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	top: 2.2em;
+}
+
+.heading3 {
+	margin-top: .8em;
+	font-size: 350%;
+	font-weight: bold;
+	line-height: 50%;
+}
+
+.heading3 span {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.heading3:nth-child(2) {
+	margin: auto;
+	text-align: center;
+	position: relative;
+	font-size: 200%;
+	top: 2em;
+	}
+
+.heading3:nth-child(2) span {
+	font-size: 16px;
+	font-weight: 400;
+	display: block;
+	margin-top: .5em;
+}
+
+.heisenberg {
+	background-image: url(../IMG/heisenberg.png);
+	height: 300px;
+	background-size: auto 100%;;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	top: 2em;
+}
+
+.button-group {
+	position: relative;
+	top: 15em;
+}
+
+.order {
+	width: 50%;
+	border-radius: 5px;
+    background-color: white;
+	font-size: 150%;
+	color: #CD2028;
+    margin-top: 12em;
+	padding: .2em 0;
+	border: 1px solid #CD2028;
+	-webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color .2s ease-out;
+    -o-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out;
+}
+
+.order:hover {
+	background-color: #CD2028;
+	color: white;
+
+}
+
+.contain {
+	padding: 0;
+}
+
+.cooking {
+	height: 300px;
+	background-color: #CD2028;
+}
+
+.gus-img {
+	background-image: url(../IMG/cooking.png);
+	background-size: auto 90%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	height: 200px;
+	margin-top: 1.2em;
+	position: relative;
+	left: -2px;
+}
+
+.quote {
+	color: white;
+	font-size: 150%;
+	text-align: center;
+	padding: 0 1.5em;
+}
+
+.section {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.wrap {
+	height: 550px;
+	padding: 0;
+}
+
+.location {
+	background-image: url(../IMG/nGQ6s55.png);
+	background-size: auto 120%;
+	height: 550px;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-filter: opacity(45%);
+    -moz-filter: opacity(45%);
+    -o-filter: opacity(45%);
+    -ms-filter: opacity(45%);
+    filter: opacity(45%);
+	z-index: -1;
+}
+
+.pin {
+	background-image: url(../IMG/Logomakr_3sq78n.png);
+	height: 280px;
+	background-size: auto 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	top: -35em;
+}
+
+.find {
+	background-color: white;
+	border: 1px solid #CD2028;
+	border-radius: 5px;
+	font-size: 140%;
+	color: #CD2028;
+	padding: 3px 10px;
+	cursor: pointer;
+	position: relative;
+	top: -20em;
+	-webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color .5s ease-out;
+    -o-transition: background-color .5s ease-out;
+    transition: background-color .5s ease-out;
+}
+
+.find:hover {
+	background-color: #CD2028;
+	color: white;
+}
+
+.spicy {
+	height: 300px;
+	background-image: url(../IMG/Shirley-Camps-Favorite-Hot-Chili-Sauce-R-1800x850.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.hot {
+	color: white;
+	font-size: 130%;
+	position: relative;
+	top: 9.5em;
+	right: -1.5em;
+	width: 50%;
+}
+
+.hot span {
+	font-family: 'Phosphate.ttc';
+	font-size: 520%;
+	line-height: 80%;
+}
+
+.The-cook {
+	height: 300px;
+	background-image:url(../IMG/breaking-bad-actor-david-costabile-gale-was-one-of-the-most-fun-characters-to-play.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.footer {
+	height: 150px;
+
+}
+
+.media {
+	margin-top: 1.5em!important;
+	width: 72%;
+	margin: auto;
+}
+
+.media-img {
+	margin: 0 auto;
+	padding-bottom: 1em;
+	border-bottom: 1px solid black;
+}
+
+.media img {
+	cursor: pointer;
+}
+
+.media img:nth-child(2) {
+	margin: 0 2em;
+}
+
+.media img:last-child {
+	background-color: #CD2028;
+	padding: 7px;
+	border-radius: 5px;
+	width: 35px;
+	height: 35px;
+}
+
+.links ul {
+	width: 100%;
+	padding: 5px;
+	text-align: center;
+}
+
+.links li {
+	font-size: 9px;
+	padding-right: 5px;
+	border-right: 1px solid black;
+	display: inline;
+	font-weight: bold;
+	color: #CD2028!important;
+}
+
+.links li:last-of-type {
+	border-right: none;
+}
+
+.text {
+	font-size: 9px;
+	text-align: center;
+	position: relative;
+	top: -.5em;
+}
+
+.cook {
+	color: white;
+	text-align: right;
+	position: relative;
+	bottom: -10.5em;
+	left: -2em;
+	font-size: 140%;
+}
+
+.cook span {
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.news {
+		padding: 0;
+	}
+
+.hank {
+	background-image: url(../IMG/HANK.jpg);
+	background-position: top;
+	background-size: 110% auto;
+	height: 550px;
+	background-repeat: no-repeat;
+}
+
+.hank :before {
+	height: 600px;
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+background: -moz-linear-gradient(top, rgba(229,229,229,0) 30%, rgba(0,0,0,1) 60%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(229,229,229,0) 30%,rgba(0,0,0,1) 60%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(229,229,229,0) 30%,rgba(0,0,0,1) 60%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e5e5e5', endColorstr='#000000',GradientType=0 ); /* IE6-9 */	
+}
+
+
+.hank img {
+	position: relative;
+	z-index: 999;
+	margin: 0 auto;
+	top: 19em;
+}
+
+.info {
+	width: 40%;
+	border-radius: 5px;
+	background-color: transparent;
+	font-size: 130%;
+	color: white;
+	padding: .2em 0;
+	position: relative;
+	z-index: 999;
+	top: 16.5em;
+	border: 1px solid #CD2028;
+	-webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color .2s ease-out;
+    -o-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out;
+}
+
+.info:before {
+	position: relative;
+	background: none; 
+}
+
+.info:hvoer {
+	background-color: white;
+	color: #CD2028;
+}
+
+.menu {
+	height: 475px;
+}
+
+
+.menu:nth-child(odd) {
+	background-color: white;
+}
+
+.menu:nth-child(odd) .items {
+	border-radius: 5px;
+	background-color: transparent;
+	font-size: 100%;
+	font-weight: bold;
+	color: black;
+    margin:15px auto;
+	padding: .2em 2em;
+	border: 1px solid #CD2028;
+	-webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color .2s ease-out;
+    -o-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out;
+}
+
+.menu:nth-child(even) {
+	background-color: #CD2028;
+	color: white;
+}
+
+.menu:nth-child(even) li {
+	border-bottom: 1px solid #D45254;
+}
+
+.menu:nth-child(even) .items {
+	border-radius: 5px;
+	background-color: transparent;
+	font-size: 100%;
+	font-weight: bold;
+	color: black;
+    margin: 15px auto;
+	padding: .2em 2em;
+	border: 1px solid white;
+	-webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color .2s ease-out;
+    -o-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out;
+	position: relative;
+	left: -1em;
+}
+
+#chicken .image {
+	background-image: url(../IMG/BRFC_Drumstick01.png);
+	height: 250px;
+	background-size: auto 60%;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	transform: rotate(15deg);
+}
+
+#burrito .image {
+	background-image:url(../IMG/4d14937822345013c5bc55e3a6a36fa2.png);
+	height: 250px;
+	background-size: auto 125%;
+	background-position: center;
+	background-repeat: no-repeat;
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+	transform: rotate(-15deg) scaleX(-1);
+    filter: FlipH;
+	-ms-filter: "FlipH";
+	position: relative;
+	bottom: 0em;
+}
+
+#burger .image {
+	background-image:url(../IMG/9ef63d_aad22c7b5ab4e88736a38be4678048a3.jpg);
+	height: 250px;
+	background-size: auto 80%;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	bottom: 0.5em;
+}
+
+#kids .image {
+	background-image:url(../IMG/GUShalf.png);
+	height: 280px;
+	background-size: auto 180%;
+	background-position: 50% 0%;
+	background-repeat: no-repeat;
+	position: relative;
+	top: .5em;
+}
+
+.price {
+	position: relative;
+	top: -15px;
+}
+
+.menu ul {
+	padding: 0;
+	position: relative;
+	top: 20px;
+}
+
+.menu h3 {
+	width: 80%;
+	margin: 0 auto;
+	text-align: left;
+	position: relative;
+	top: -10px;
+	padding-left: 8px;
+	color: black;
+}
+
+.menu li {
+	display: block;
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 99%;
+	border-bottom: 1px solid #FFDFDF;
+	padding-bottom: 6px;
+}
+
+.menu li p {
+	float: right;
+	font-weight: 100;
+	position: relative;
+	top: -10px;
+	letter-spacing: 1px;
+}
+
+.menu li h4 {
+	float: left;
+	font-weight: 400;
+	font-size: 11pt;
+	line-height: 0%;
+	position: relative;
+	top: -15px
+}
+
+#kids {
+	height: 490px;
+}
+
+#kids h3 {
+	position: relative;
+	top: -1em;
+}
+
+#kids ul {
+	position: relative;
+	top: 0.1em;
+}
+
+#kids button {
+	position: relative;
+	top: 0em;
+}
+
+.items {
+	position: relative;
+	top: 1.5em;
+	left: -2em;
+}
+
+.featherlight .featherlight-content {
+    width: 80%;
+	height: 53%;
+	color: black;
+	padding: 0;
+}
+
+.lightbox { 
+	display: none;
+}
+
+.lightbox h1 {
+	background-color: #CD2028;
+	width: 100%;
+	font-size: 150%;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	padding: .5em 0;
+	font-weight: bold;
+}
+
+.featherlight-close-icon {
+	background: transparent!important;
+}
+
+.chart {
+	margin: 3em auto 0;
+}
+
+table {
+	border-collapse: collapse;
+	border: solid 1px;
+	font-size: 14px;
+	margin:auto;
+	margin-top:8em;
+}
+
+.lightbox p {
+	padding: 0 3.5em;
+	font-size: 10px;
+	margin: 1em auto 0;
+}
+
+th {
+	text-align:centre;
+	color:#CD2028;
+	line-height:20px;
+	padding: .5em 0 0.5em .7em;
+	font-weight:400;
+}
+
+td, tr {
+	color:#393939;
+	text-align: left; 
+    vertical-align: center; 
+	border-collapse: collapse;
+	padding-left: .7em;
+}
+
+.menu a {
+	color: black;
+}
+
+.price img {
+	position: relative;
+	top: -4px;
+	right: -2px;
+}
+
+
+@media screen and (max-width: 480px) {
+	
+.hank.open :before {
+	top:160px;
+	 -webkit-transition: all 0.3s ease-out;
+       -moz-transition: all 0.3s ease-out;
+        -ms-transition: all 0.3s ease-out;
+         -o-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+}
+}
+
+@media screen and (min-width: 768px){
+	.heading {
+		background-position: 10% 50%;
+	}
+	
+	.order {
+		width: 40%;
+	}
+	
+	.navbar-brand {
+		background-size: 100% auto;
+	}
+	.navbar-nav {
+		float: right;
+	}
+
+	.location {
+	background-size: 120%;
+	}
+
+	.find {
+	font-size: 170%;
+	padding: 5px 30px;
+	margin-top: 4em;
+}
+	
+	.spicy {
+		background-position: 50% 100%;
+	}
+	
+	.The-cook {
+		background-position: 50% 30%;
+	}
+	
+	.hank {
+	background-image: url(../IMG/HANK.jpg);
+	background-position: 110% 50%;
+	background-size: auto 100%;
+	height: 350px;
+	background-repeat: no-repeat;
+}
+	
+	.hank :before {
+	height: 400px;
+	width: 100%;
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+background: -moz-linear-gradient(left, rgba(0,0,0,1) 45%, rgba(229,229,229,0) 70%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(0,0,0,1) 45%,rgba(229,229,229,0) 70%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(0,0,0,1) 45%,rgba(229,229,229,0) 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00e5e5e5',GradientType=1 ); /* IE6-9 */
+}
+	
+	.hank img {
+	position: relative;
+	z-index: 999;
+	margin: 0 auto;
+	top: 3em;
+	width: 230px;
+	height: 200px;
+	left: -13em;
+}
+	.info {
+	width: 150px;
+	border-radius: 5px;
+	background-color: transparent;
+	font-size: 130%;
+	color: white;
+	padding: .2em 0;
+	position: relative;
+	z-index: 999;
+	top: 4em;
+	border: 1px solid #CD2028;
+	-webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color .2s ease-out;
+    -o-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out;
+	left: -10em;
+}
+
+.info:before {
+	position: relative;
+	background: none; 
+}
+}
+
+@media screen and (min-width: 1024px) {
+	.navbar-nav {
+		float: none;
+		margin: auto;
+		width: 57%;
+		max-width: 523px;
+	}
+	
+	.flickity-prev-next-button {
+	display: block;
+    background: transparent;
+}
+	
+	.flickity-page-dots .dot {
+	border: 2px solid black;
+	width: 12px;
+  	height: 12px;
+	background: transparent;
+}
+	
+	.intro {
+		background-position: center;
+	}
+	
+	.news {
+		padding: 0;
+	}
+	.location {
+		background-size: auto 120%;
+		height: 600px;
+	}
+	
+	.pin {
+	top: -38em;
+	}
+	.find {
+	top: -21em;
+	}
+	
+	.cooking {
+		height: 220px;
+	}
+	.quote {
+	color: white;
+	font-size: 250%;
+	text-align: left;
+	font-weight:100;
+	margin-top: 1.5em;
+	letter-spacing: 1px;
+	position: relative;
+	left: -2em;
+}
+	.links li {
+	font-size: 14px;
+	padding: 0 12px 0 6px;
+	border-right: 1px solid black;
+	display: inline;
+	font-weight: 400;
+	color: #CD2028;
+}
+	.links ul {
+		margin-top: 10px;
+	}
+	.text {
+	font-size: 12px;
+}
+	.media {
+	width: 30%;
+}
+	.flex-container {
+	-ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+	}
+	.flex-item:nth-of-type(1) { 
+		order: 2; 
+	}
+    .flex-item:nth-of-type(2) { 
+		order: 1; 
+		text-align: right;
+		position: relative;
+		left: 2em;
+		top: .3em;
+	}
+	
+	.navbar-nav {
+    float: none;
+	margin: auto;
+	width: 57%;
+}
+	
+	.navbar-nav li {
+
+	}
+	
+	.navbar-nav a {
+	z-index: 99;
+	}
+	
+	.navbar-brand {
+		display: none;
+	}
+	
+	.navbar-nav li:nth-child(2) {
+		padding-right: 5em;
+	}
+	.navbar-nav li:nth-child(4) {
+		padding-left: 5em;
+	}
+	
+	.navbar-nav li:nth-child(3) {
+		position: absolute;
+		display: block;
+	}
+	
+	.brand {
+		background-image: url(../IMG/logo-img.png);
+		height: 100px;
+		background-size: cover;
+		background-position: center;
+		width: 200px;
+		position: absolute;
+		left: 11em;
+	}
+	.heading {
+	height: 230px;
+}
+	
+	.heisenberg {
+		background-image: url(../IMG/heisenberg.png);
+		height: 430px;
+		background-size: auto 100%;;
+		background-repeat: no-repeat;
+		background-position: center;
+		float: right;
+		position: relative;
+		top: -19em;
+		left: -1em;
+}
+	
+	.heading3 {
+		font-size: 600%;
+		margin-top: 2.5em;
+		margin-left: .5em;
+	}
+	
+	.heading3 span{
+		font-size: 33%;
+		margin-top: 2.5em;
+
+	}
+	
+	.heading3:nth-child(2) {
+		font-size: 150%;
+		font-weight: 400;
+		position: relative;
+		top: -14em;
+		left: 1em;
+		margin-left: .5em;
+	}
+	
+	.heading3:nth-child(2) span {
+		font-size: 125%;
+		font-weight: 100;
+		letter-spacing: 1px;
+		display: inline;
+	}
+	
+	.order {
+	position: relative;
+	top: -2em;
+}
+	
+	.hank {
+	
+	}
+	
+	.menu {
+	height: 300px;
+}
+	
+	.menu li {
+	display: block;
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+	border-bottom: 1px solid #FFDFDF;
+	padding-bottom: 1px;
+	line-height: 0%;
+	position: relative;
+	top: -5px;
+}
+	
+	.menu h4 {
+		line-height: 0%;
+		position: relative!important;
+		top: -20px!important;
+	}
+	
+	.price {
+		font-size: 22px;
+	}
+	
+	.price h3 {
+		top: -20px;
+		margin-left: 52px;
+	}
+	
+	#chicken h4 {
+		font-size: 20px;
+	}
+	
+	#chicken {
+		overflow: hidden;
+	}
+	
+	#chicken .image {
+	height: 350px;
+	background-size: auto 75%;
+	background-position: 0% 50%;
+	position: relative;
+	margin-top: 0em;
+	margin-left: 8em;
+}
+	
+	#chicken .price {
+	margin-top: 0em;
+	position: absolute;
+	right: 44.5%;
+	top: 20.5em;
+}
+	
+	#chicken button {
+	float: left;
+	position: relative;
+	left: -7.5em;
+	font-size: 70%;
+	margin-top: 0em;
+	}
+	
+	#burrito .image {
+	height: 300px;
+	background-size: auto 160%;
+	position: relative;
+	bottom: -1em;
+	left: -6em;
+}
+	#burrito .price {
+	margin-top: 3em;
+	left: -5em;
+	}
+	
+	#burrito h4 {
+		font-size: 20px;
+	}
+	
+	#burrito button {
+		float: right;
+		position: relative;
+		left: 0em;
+		margin-top: 0em;
+		font-size: 70%;
+		margin-right: 4em;
+	}
+	
+	#burger {
+		overflow: hidden;
+	}
+	
+	#burger .image {
+		background-size: auto 110%;
+		height: 280px;
+		top: 20px;
+		margin-left: 7em;
+		z-index: 0;
+		transform: rotate(10deg);
+	}
+	
+	#burger .price {
+		margin-top: 63.2em;
+		position: absolute;
+		right: 44.5%;
+		top: -15.5em;
+	}
+	
+	#burger h4 {
+		font-size: 20px;
+	}
+	
+	#burger button {
+		float: left;
+		position: relative;
+		left: -6em;
+		margin-top: 1em;
+	}
+	
+	#burger button {
+		font-size: 70%;
+		top: .5em;
+		left: -7.2em;
+	}
+	
+	#kids {
+	height: 300px;
+}
+	
+	#kids .price {
+		margin-top: 3.2em;
+		position: relative;
+		left: -4.8em;
+	}
+	
+	#kids ul {
+	position: relative;
+	top: 0.6em;
+}
+	
+	#kids button {
+		float: right;
+		position: relative;
+		left: -4.1em;
+		margin-top: 1.2em;
+		font-size: 70%;
+	}
+	
+	#kids h4 {
+		font-size: 20px;
+	}
+	
+	#kids .image {
+		background-image: url(../IMG/gus-action.png);
+		background-position: 0% 5%;
+		background-size: 95%;
+		height: 100%;
+		position: relative;
+		top: 0px;
+		left: 0em;
+	}
+	
+	.hank {
+	background-image: url(../IMG/HANK.jpg);
+	background-position: 100% 50%;
+	background-size: auto 100%;
+	height: 350px;
+	background-repeat: no-repeat;
+}
+	
+	.hank :before {
+	height: 400px;
+		width: 100%;
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+background: -moz-linear-gradient(left, rgba(0,0,0,1) 58%, rgba(229,229,229,0) 73%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(0,0,0,1) 58%,rgba(229,229,229,0) 73%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(0,0,0,1) 58%,rgba(229,229,229,0) 73%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00e5e5e5',GradientType=1 ); /* IE6-9 */
+}
+	
+	.hank img {
+	position: relative;
+	z-index: 999;
+	margin: 0 auto;
+	top: 3em;
+	width: 230px;
+	height: 200px;
+	left: -15em;
+}
+	.info {
+	width: 150px;
+	border-radius: 5px;
+	background-color: transparent;
+	font-size: 130%;
+	color: white;
+	padding: .2em 0;
+	position: relative;
+	z-index: 999;
+	top: 4em;
+	border: 1px solid #CD2028;
+	-webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color .2s ease-out;
+    -o-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out;
+	left: -11.5em;
+}
+
+.info:before {
+	position: relative;
+	background: none; 
+}
+	.featherlight .featherlight-content {
+    width: 50%;
+	height: 50%;
+}
+	
+	.chart {
+	margin: 2.5em auto 0;
+}
+	
+.lightbox p {
+	padding: 0 5.5em;
+	font-size: 10px;
+	margin: 1em auto 0;
+}
+}

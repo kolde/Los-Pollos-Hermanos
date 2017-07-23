@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Los Pollos Hermanos</title>
+<link href="CSS/bootstrap.css" type="text/css" rel="stylesheet">
+<link href="CSS/bootstrap-theme.min.css" type="text/css" rel="stylesheet">
+<link href="CSS/flickity.min.css" type="text/css" rel="stylesheet" media="screen">
+<link href="CSS/core.css" type="text/css" rel="stylesheet">
+<link href="CSS/jquery.fancybox.min.css" type="text/css" rel="stylesheet">
+<link href="CSS/LPHstyle.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container">
+     <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <!--<span class="sr-only">Toggle navigation</span>-->
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+
+        <li><a href="menu.html">MENU</a></li>
+        <li><a href="#">LOCATION</a></li>
+        <li><a class="brand" href="index.html"></a></li>
+        <li><a href="#">ORDER</a></li>
+        <li><a href="#">FEEDBACK</a></li>
+ 
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div>
+</nav>
+
+<div class="container-fluid" gallery>
+
+<div class="main-carousel">
+  <div class="carousel-cell intro">
+  	<div class="heading"></div>
+  	<center><button class="order">ORDER</button></center>
+  </div>
+  <div class="carousel-cell intro2"></div>
+  <div class="carousel-cell intro3">
+  
+  	<center>
+  	<div class="row">
+  	<div class="heading3 col-sm-12 col-md-6">WANTED<br><span>for drug trafficing and murder</span></div>
+  	<div class="col-sm-12 col-md-6 heisenberg">
+  	</div>
+  	</div>
+  	<div class="heading3 col-xs-12 col-md-6">REAWARD<span> one chicken burrito</span></div>
+  	</center>
+  	
+  </div>
+</div>
+</div>
+
+
+<div class="container-fluid cooking">
+	<div class="gus-img col-xs-12 col-md-6"></div>
+	<div class="quote col-xs-12 col-md-6">Where Something Good 
+is Always Cooking.</div>
+	
+</div>
+
+<div class="contain container section">
+<div class="wrap col-md-6 col-lg-6">
+<div class="location "></div>
+	<div class="pin"></div>
+	<center><button class="find">Find a Los Pollos Near You</button></center>
+</div>
+
+<div class="news col-md-6 col-lg-6">
+	<div class="spicy">
+		<p class="hot">We Heard You Like It<br><span>HOT</span></p>
+	</div>
+	<div class="The-cook">
+		<p class="cook">Meet the right-hand man aka<br><span>THE COOK</span></p>
+	</div>
+</div>
+</div>
+
+<div class="container-fluid cooking flex-container">
+	<div class="gus-img col-md-6 flex-item"></div>
+	<div class="quote col-xs-12 col-md-6 flex-item">We shot down our 
+competitors.</div>
+	
+</div>
+
+<div class="footer container-fluid">
+	<div class="media">
+	<div class="media-img"><center>
+		<img src="IMG/Logomakr_90PXq1.png" width="35" height="35">
+		<img src="IMG/Logomakr_4hrXF0.png" width="35" height="35">
+		<img src="IMG/Logomakr_5QN8i4.png" width="15" height="15"></center>
+		</div>
+	</div>
+	<div class="links">
+		<ul>
+		  <li><a href="@">MENU &amp; NUTRITION</a></li>
+		  <li><a href="@">CONTACT US</a></li>
+	<li><a href="@">FIND A LOS POLLOS</a></li>
+	<li><a href="@">CAREERS</a></li>
+	</ul>
+	</div>
+	<div class="text">© 2010-2016 CARL'S JR. RESTAURANTS LLC. FEATURED PRODUCTS AVAILABLE
+AT PARTICIPATING LOCATIONS ONLY. ALL RIGHTS RESERVED.</div>
+</div>
+
+</body>
+<script src="Javascript/jquery-3.1.1.min (1).js"></script>
+<script src="Javascript/flickity.pkgd.min.js"></script>
+<script src="Javascript/jquery.fancybox.js"></script>
+<script src="Javascript/bootstrap.min.js"></script>
+<script src="Javascript/core.js"></script>
+<script src="Javascript/LPHscript.js"></script>
+<script>
+$('.main-carousel').flickity({
+  // options
+  cellAlign: 'left',
+  contain: true,
+  autoPlay: 5000
+});
+	
+	$(".navbar-toggle").click(function () {
+                $(this).toggleClass("open");
+            });
+	</script>
+</html>
